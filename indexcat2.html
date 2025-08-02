@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Cutie 😉</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .cat-image {
+      width: 250px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 200, 255, 0.8);
+      animation: bounce 2s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    h2 {
+      margin-top: 20px;
+      color: #ffccff;
+      font-family: "Comic Sans MS", cursive;
+      font-size: 24px;
+      text-shadow: 0 0 6px white;
+    }
+  </style>
+</head>
+<body>
+  <img class="cat-image" src="istockphoto-1309760576-612x612.jpg" alt="Cute Cat">
+  <h2>Hello Cutie 😉</h2>
+</body>
+</html>
